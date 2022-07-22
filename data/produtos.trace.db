@@ -1,0 +1,6 @@
+2022-07-22 09:43:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found; SQL statement:
+insert into PRODUTO (DESCRICAO, VALOR) values ('Cadeira', 231) [42102-214]
+2022-07-22 09:44:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FLYWAY_SCHEMA_HISTORY" not found (candidates are: "flyway_schema_history"); SQL statement:
+select * from flyway_schema_history [42103-214]
