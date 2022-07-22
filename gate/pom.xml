@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.luisfernando</groupId>
-	<artifactId>gateway</artifactId>
+	<artifactId>gate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gateway</name>
+	<name>gate</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>15</java.version>
@@ -24,16 +24,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bootstrap</artifactId>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -67,14 +68,14 @@
 						<image>openjdk:15-jdk-slim-buster</image>
 					</from>
 					<to>
-						<image>luisfernando2020/microservicos-softfocus-gateway:${version}</image>
+						<image>luisfernando2020/microservicos-softfocus-gate:${version}</image>
 					</to>
 					<container>
 						<jvmFlags>
 							<jvmFlag>-Xms128m</jvmFlag>
 							<jvmFlag>-Xmx256m</jvmFlag>
 						</jvmFlags>
-						<mainClass>com.luisfernando.gateway.GatewayApplication</mainClass>
+						<mainClass>com.luisfernando.gate.GateApplication</mainClass>
 					</container>
 				</configuration>
 			</plugin>

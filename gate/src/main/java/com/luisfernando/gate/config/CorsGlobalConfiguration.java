@@ -1,4 +1,4 @@
-package com.luisfernando.gateway.config;
+package com.luisfernando.gate.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.config.CorsRegistry;

@@ -1,10 +1,10 @@
-package com.luisfernando.gateway;
+package com.luisfernando.gate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GatewayApplicationTests {
+class GateApplicationTests {
 
 	@Test
 	void contextLoads() {
