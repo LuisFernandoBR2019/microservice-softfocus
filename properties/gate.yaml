@@ -7,7 +7,7 @@ eureka:
     lease-expiration-duration-in-seconds: 2
   client:
     initial-instance-info-replication-interval-seconds: 0
-    instance-info-replication-interval-seconds: 0
+    instance-info-replication-interval-seconds: 1
     registry-fetch-interval-seconds: 1
 
 
